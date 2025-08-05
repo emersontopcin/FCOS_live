@@ -1,6 +1,6 @@
 // Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 #pragma once
-#include "fcos_core/csrc/cpu/vision.h"
+#include "/FCOS_live/fcos_core/csrc/cpu/vision.h"
 
 #ifdef WITH_CUDA
 #include "cuda/vision.h"
