@@ -1,6 +1,6 @@
 #pragma once
 
-#include "cpu/vision.h"
+#include "fcos_core/csrc/cpu/vision.h"
 
 #ifdef WITH_CUDA
 #include "cuda/vision.h"
