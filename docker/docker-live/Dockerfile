@@ -26,10 +26,10 @@ RUN git clone https://github.com/cocodataset/cocoapi.git /cocoapi && \
     python3 setup.py build_ext install
 
 # Clona e instala FCOS
-RUN git clone https://github.com/tianzhi0549/FCOS.git /FCOS && \
-    cd /FCOS && \
+RUN git clone https://github.com/emersontopcin/FCOS_live.git /FCOS_live && \
+    cd /FCOS_live && \
     python3 setup.py build develop --no-deps
 
-WORKDIR /FCOS
+WORKDIR /FCOS_live
 
 CMD ["bash"]
